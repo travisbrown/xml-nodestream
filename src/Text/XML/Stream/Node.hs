@@ -56,7 +56,7 @@ buildElement = do
     Just _ -> buildElement
     _ -> return Nothing
 
--- | A convenience function that returns cursors for non-element nodes.
+-- | A convenience function that returns cursors for element nodes.
 buildElementCursor :: MonadThrow m => Consumer Event m (Maybe Cursor)
 buildElementCursor = do
   n <- buildNode
