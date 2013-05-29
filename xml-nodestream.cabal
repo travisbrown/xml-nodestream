@@ -10,7 +10,7 @@ license:             Apache-2.0
 license-file:        LICENSE
 author:              Travis Brown
 maintainer:          travisrobertbrown@gmail.com
--- copyright:           
+copyright:           (c) 2013 Travis Brown
 category:            Text
 build-type:          Simple
 cabal-version:       >=1.8
@@ -28,3 +28,4 @@ library
                      , transformers >= 0.3.0
                      , xml-conduit >=1.1.0
                      , xml-types >=0.3.3
+
